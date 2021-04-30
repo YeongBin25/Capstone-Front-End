@@ -1,0 +1,19 @@
+.side-bar {
+    width : 270px;
+    height : 100vh;
+    background: #25bc6d;
+}
+
+.side-bar .side-tab {
+    text-decoration: none;
+    color : white;
+    display : block;
+    padding : 50px 0 0 30px;
+}
+
+@media (max-width : 767px) {
+    .side-bar {
+        display: none;
+    }
+}
+
